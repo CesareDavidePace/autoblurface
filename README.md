@@ -10,11 +10,6 @@ AutoFaceBlur is a Python-based tool designed to enhance privacy and anonymity in
 - **Output saving**: Option to save the processed video output.
 
 ## Installation
-### Prerequisites
-
-- Python 3.6 or later
-- OpenCV
-- YOLO compatible with Ultralytics YOLO package
 
 ### Steps
 
@@ -31,6 +26,8 @@ AutoFaceBlur is a Python-based tool designed to enhance privacy and anonymity in
    ```bash
    pip install -r requirements.txt
    ```
+4. **Download models**
+   [GitHub Pages](https://github.com/akanametov/yolov8-face)
 
 ## Basic Usage 
 ```python
