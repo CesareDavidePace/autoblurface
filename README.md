@@ -27,7 +27,7 @@ AutoFaceBlur is a Python-based tool designed to enhance privacy and anonymity in
    pip install -r requirements.txt
    ```
 4. **Download models**
-   [GitHub Pages](https://github.com/akanametov/yolov8-face)
+   [YoloV8 Face](https://github.com/akanametov/yolov8-face)
 
 ## Basic Usage 
 ```python
