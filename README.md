@@ -32,4 +32,28 @@ AutoFaceBlur is a Python-based tool designed to enhance privacy and anonymity in
    pip install -r requirements.txt
    ```
 
-  
+## Basic Usage 
+```python
+from AutoBlurFace import AutoBlurFace
+
+auto_blur_face = AutoBlurFace(
+    model_path='yolov8n-face.pt',
+    output_video_path='output.mp4',
+    show_video=True,
+    save_video=True,
+    apply_blur=True
+)
+
+auto_blur_face.run('face-video.mp4')
+```
+
+## Using Webcam
+```python
+auto_blur_face.run(use_webcam=True)
+```
+
+## Acknowledgments
+- YOLO and Ultralytics for the face detection model.
+- OpenCV community for the image processing tools.
+
+
